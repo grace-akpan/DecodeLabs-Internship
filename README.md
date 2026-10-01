@@ -16,8 +16,6 @@ git clone https://github.com/grace-akpan/repo.git
 cd repo
 ```
 
-## Usage
-SQL queries used for analysis are in `queries.sql` — run them against the dataset using your preferred SQL tool.
 
 
 
