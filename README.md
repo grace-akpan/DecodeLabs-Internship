@@ -32,10 +32,8 @@ The dataset was reviewed for data-quality issues before analysis. The following 
 
 Exploratory Data Analysis was conducted to understand the patterns, trends, distributions, and relationships within the dataset before drawing conclusions. Descriptive Statistics (mean=1053.97, median = 823.62 and 1200 records )
 values were calculated for key numerical variables to understand their distribution and central tendency.
-A box-and-whisker plot was used to examine the distribution of the data and identify potential outliers. Any observations flagged as potential outliers of 11.39 and 3456.40 were reviewed to determine whether they represented genuine values or possible data-quality issues.
-Correlation analysis was performed to examine the relationship between `Quantity` and `Total Price`.
-- **Pearson correlation coefficient:** r = 0.615
-- **Interpretation:** A moderate positive linear relationship, suggesting that higher quantities tend to be associated with higher total prices.
+A box-and-whisker plot was used to examine the distribution of the data and identify potential outliers. Any observations flagged as potential outliers ranging from 3334.00  to 3456.40 were reviewed to determine whether they represented genuine values or possible data-quality issues.
+Correlation analysis was performed to examine the relationship between `Quantity` and `Total Price`. **Pearson correlation coefficient:** r = 0.615, showing a moderate positive linear relationship and the relationship between `Unit Price`, and `Total Price` producing **Pearson correlation coefficient:** r = 0.717, showing a strong positive relationship. 
 PivotTables were used to summarize and compare sales performance across relevant categories, providing a clearer view of patterns and differences within the dataset.
 
 
