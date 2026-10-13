@@ -28,7 +28,7 @@ The dataset was reviewed for data-quality issues before analysis. The following 
 - **Data types:** Converted `Quantity`, `Unit Price`, and `Total Price` to appropriate numeric data types.
 - **Missing values:** Checked for missing values and handled them appropriately. Identified 309 blank values in the `CouponCode` column and replaced them with `"No code"` to distinguish missing entries from actual coupon codes.
 
-# Tools & Skills
+## Tools & Skills
 - Microsoft Excel
 - Data cleaning 
   
@@ -40,12 +40,12 @@ A box-and-whisker plot was used to examine the distribution of the data and iden
 Correlation analysis was performed to examine the relationship between `Quantity` and `Total Price`. **Pearson correlation coefficient:** r = 0.615, showing a moderate positive linear relationship and the relationship between `Unit Price`, and `Total Price` producing **Pearson correlation coefficient:** r = 0.717, showing a strong positive relationship. 
 PivotTables were used to summarize and compare sales performance across relevant categories, providing a clearer view of patterns and differences within the dataset.
 
-# Tools & Skills
+## Tools & Skills
 - Microsoft Excel
 - Exploratory Data Analysis  
 
 
-# Project 3: SQL Assessment
+## Project 3: SQL Assessment
 
 In this project, I performed **12 SQL queries** to analyze e-commerce order data and evaluate sales performance, order statuses, customer spending, product performance, cancellations, promotions, and referral sources.
 I applied SQL techniques including **CTEs, CASE statements, WHERE clauses, aggregate functions, GROUP BY, HAVING, filtering, and window functions** to answer business questions and generate actionable insights.
@@ -64,7 +64,7 @@ I applied SQL techniques including **CTEs, CASE statements, WHERE clauses, aggre
   
 ---
 
-# Project 4: Data Visualization
+## Project 4: Data Visualization
 
 This project builds on the SQL analysis from Project 3 by transforming the findings into clear, business-focused insights, avoiding misleading data visualizations and chartjunk. I created **DAX measures** for dashboard, Selected **appropriate charts** based on each business question and built a **zero-baseline dashboard** highlighting actionable insights
 
